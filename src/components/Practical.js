@@ -11,5 +11,14 @@ class Practical extends React.Component {
       date: "",
     };
   }
+
+  render() {
+    return (
+      <div>
+        <h3>Practical Experience</h3>
+        
+      </div>
+    )
+  }
 }
 export default Practical;
