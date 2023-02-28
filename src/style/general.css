@@ -1,0 +1,76 @@
+input {
+    border: 0;
+    outline: none;
+    /* border-bottom: 1px solid grey; */
+  }
+  textarea {
+    font-size: 16px;
+    border: 0;
+    resize: none;
+    overflow: hidden;
+    /* height:130px; */
+  }
+  textarea:focus {
+    border: 0;
+    outline: none;
+  }
+  h3 {
+    color: #075985;
+  }
+  /* input:valid {
+    background-color: #fff;
+    border-bottom: 1px solid lightgreen;
+  } */
+.general {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.general input {
+  font-weight: bold;
+}
+.general textarea {
+  width:675px;
+}
+.general > div:last-child {
+    align-self: flex-start;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.general > form {
+    font-weight: 50px;
+    /* padding-top: 30px; */
+    flex: 1;
+    align-self: stretch;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 80px;
+    padding-bottom: 10px;
+    border-bottom: 2px dotted #075985;
+}
+.general > form > div {
+    display: flex;
+    flex-direction: column;
+}
+.svg_box {
+  display: flex;
+  gap: 5px;
+  /* align-items: center; */
+}
+.svg_box > input {
+  width: min-content;
+  text-align: end;
+}
+.svg_box svg {
+  width: 20px;
+  height: 20px;
+}
+.general > form > div:first-child > input:first-child{
+    font-size: 30px;
+    color: #075985 !important;
+    font-weight: bolder;
+}
+
+

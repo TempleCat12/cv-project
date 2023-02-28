@@ -14,8 +14,8 @@ const education = {
     return {
       id: uniquid(),
       school: "",
-      major: "",
       date: "",
+      major: "",
       degree: "",
     };
   },
@@ -26,35 +26,18 @@ const practice = {
   placeholder: {
     company: "The Odin Project",
     position: "Front development",
-    task: "UI design",
     date: "2018.09-2021.01",
+    task: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Imperdiet sed euismod nisi porta lorem mollis aliquam. Neque aliquam vestibulum morbi blandit cursus risus at ultrices mi.",
   },
   // create new empty item with specified id
   factory: function () {
     return {
       id: uniquid(),
       company: "",
+      date: "",
       position: "",
       task: "",
-      date: "",
     };
   },
 };
-function educationFactory() {
-  return {
-    id: uniquid(),
-    school: "",
-    major: "",
-    date: "",
-    degree: "",
-  };
-}
-function practiceFactory() {
-  return {
-    id: uniquid(),
-    company: "",
-    position: "",
-    task: "",
-    date: "",
-  };
-}
+
